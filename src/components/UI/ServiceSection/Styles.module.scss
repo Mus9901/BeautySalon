@@ -1,0 +1,10 @@
+@import '@/styles/unit.scss';
+
+
+.root {
+    padding: rem(80) 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: rem(18);
+}

@@ -1,0 +1,116 @@
+.footer {
+  width: 100%;
+  height: auto;
+  // height is turn into auto so it will change height upon to content inside
+  background-color: #1E2C30;
+  padding: 40px 0;
+  .box {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    &:not(:last-child){
+      margin-bottom: 24px;
+    }
+    &:nth-child(2){
+      // 1st and 2nd box
+      border: 1px solid;
+      border-bottom: 0px;
+      border-left: 0px;
+      border-right: 0px;
+      border-color: #5C8692;
+    }
+    &:nth-child(3){
+      // 3rd box for 'p'
+      justify-content: center;
+    }
+    .logo {
+      margin-right: 40px;
+      width: 50px;
+      height: 50px;
+      // left: 82px;
+      // top: 4px;
+      font-family: 'Playfair Display';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 125%;
+      /* identical to box height, or 50px */
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.02em;
+
+      color: #FFFFFF;
+    }
+    .iconWrapper {
+      display: flex;
+      align-items: center;
+      column-gap: 16px;
+      .icon {
+        box-sizing: border-box;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+        display: flex;
+        position: relative;
+        width: 55px;
+        height: 55px;
+        border: 2px solid #5C8692;
+      }
+    }
+    nav {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+    }
+    ul {
+      list-style: none;
+      row-gap: 20px;
+      flex-direction: column;
+      position: relative;
+    }
+    ul li {
+      position: relative;
+    }
+    ul h2 {
+      // margin-top is used to bring border of 2nd box to the top
+      //margin-bottom is used to make space between the 'h2' and 'a'
+      margin-top: 16px;
+      margin-bottom: 12px;
+
+      font-family: 'Playfair Display';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 140%;
+
+      color: #FFFFFF;
+    }
+    ul li a{
+
+      font-family: 'Manrope';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 200%;
+      /* or 34px */
+      letter-spacing: -0.01em;
+
+      color: #FFFFFF;
+    }
+    p{
+      font-family: 'Font Awesome 5 Free';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 200%;
+      /* or 30px */
+      text-align: center;
+      letter-spacing: -0.01em;
+
+      color: #FFFFFF;
+    }
+  }
+}
+
+

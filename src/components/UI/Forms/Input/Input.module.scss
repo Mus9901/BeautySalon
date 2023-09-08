@@ -1,0 +1,49 @@
+@import '@/styles/unit.scss';
+
+.input {
+  &::placeholder {
+    font-size: rem(15);
+    color: #9aa6ac;
+    line-height: rem(20);
+  }
+  font-size: rem(15);
+  line-height: rem(20);
+  border-radius: 0;
+  outline: none !important;
+  box-shadow: none;
+  &.fullWidth {
+    width: 100%;
+  }
+  &.border {
+    border: 1px solid #9BB7BF;
+    transition: all 0.25s ease-in-out;
+    &:hover {
+      border-color: var(--primary-color);
+    }
+    &:focus {
+      border-color: var(--primary-color);
+    }
+  }
+  &.no-border {
+    border: none;
+  }
+  &.large {
+    padding: rem(17) rem(16);
+  }
+  &.medium {
+    padding: rem(16);
+  }
+  &.small {
+    padding: rem(14) rem(16);
+  }
+}
+
+.labelText {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .labelText {
+    display: block;
+  }
+}

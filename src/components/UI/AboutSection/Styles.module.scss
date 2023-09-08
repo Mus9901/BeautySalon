@@ -1,0 +1,63 @@
+@import '@/styles/unit.scss';
+
+.about {
+    width: 100%;
+    height: rem(620);
+    background-color: #EBF3F5;
+    padding: rem(80) 0;
+    .wrapper {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        column-gap: rem(80);
+        .left {
+            width: 45%;
+
+            p{
+                color: #5C8692;
+                font-weight: 400;
+                font-size: rem(12);
+                line-height: rem(18);
+                margin-bottom: rem(12);
+            }
+            h2 {
+                color: var(--text-color);
+                font-weight: 700;
+                font-size: rem(32);
+                line-height: rem(48);
+                margin-bottom: rem(28);
+            }
+            .desc {
+                color: #555555;
+                font-weight: 400;
+                font-size: rem(16);
+                line-height: rem(29);
+            }
+        }
+        .imgBox {
+            width: rem(420);
+            height: rem(445);
+            // overflow: hidden;
+            position: relative;
+            
+            img {
+                width: rem(400);
+                height: rem(350);
+                object-fit: contain;
+                position: relative;
+                z-index: 2;
+                
+            }
+            .bg {
+                position: absolute;
+                background-color: #7A9CA5;
+                width: 95%;
+                height: 100%;
+                left: 45px;
+                top: -20px;
+                z-index: 0;
+                box-shadow: 0px 20px 40px rgba(42, 68, 75, 0.2);
+            }
+        }
+    }
+}

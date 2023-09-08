@@ -1,0 +1,24 @@
+{
+    "services": [
+        {
+            "src": "/images/service-1.png",
+            "title": "Spa & Massage",
+            "desc": "If you are going to use a passage offer Lorem Ipsum, you need to be sure hidden in the middle of text."
+        },
+        {
+            "src": "/images/service-3.png",
+            "title": "Hair & Beauty",
+            "desc": "If you are going to use a passage offer Lorem Ipsum, you need to be sure hidden in the middle of text."
+        },
+        {
+            "src": "/images/service-2.png",
+            "title": "Body Treatments",
+            "desc": "If you are going to use a passage offer Lorem Ipsum, you need to be sure hidden in the middle of text."
+        },
+        {
+            "src": "/images/service-1.png",
+            "title": "Body Treatments",
+            "desc": "If you are going to use a passage offer Lorem Ipsum, you need to be sure hidden in the middle of text."
+        }
+    ]
+}

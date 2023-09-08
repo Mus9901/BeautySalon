@@ -1,0 +1,28 @@
+{
+    "news": [
+        {
+            "src": "/images/newsimage-1.png",
+            "datatext": "March 15, 2023",
+            "title": "How to make the make-up stay last",
+            "desc": "Therapeutic aromatherapy can help bring balance both mentally, physically, and different blends."
+        },
+        {
+            "src": "/images/newsimage-2.png",
+            "datatext": "March 18, 2023",
+            "title": "Tips to improve your body via cleansing",
+            "desc": "Whether you are looking to stress, boost energy, improve sleep, clear sinuses, or relieve a headache."
+        },
+        {
+            "src": "/images/newsimage-3.png",
+            "datatext": "March 20, 2023",
+            "title": "Experience the beauty at our beauty spa",
+            "desc": "We have created a range of proprietary aromatherapy blends to enhance your massage or skin therapy."
+        },
+        {
+            "src": "/images/newsimage-1.png",
+            "datatext": "March 20, 2023",
+            "title": "Experience the beauty at our beauty spa",
+            "desc": "We have created a range of proprietary aromatherapy blends to enhance your massage or skin therapy."
+        }
+    ]
+}
